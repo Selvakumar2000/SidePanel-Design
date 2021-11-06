@@ -27,7 +27,7 @@ body{
 }
 
 .sidebar.active{
-    width: 240px;
+    width: 300px;
 }
 
 .sidebar .logo_content .logo{
@@ -45,6 +45,14 @@ body{
     opacity: 1;
 }
 
+.sidebar.active .logo_content .logo .profile_img{
+    height: 60px;
+    width: 60px;
+    border-radius: 40px;
+    object-fit: cover;
+    margin-top: 10px;
+}
+
 .logo_content .logo{
     font-size: 28px;
     margin-right: 5px;
@@ -53,6 +61,7 @@ body{
 .logo_content .logo .logo_name{
     font-size: 20px;
     font-weight: 400;
+    margin-left: 4px;
 }
 
 .sidebar #btn{
@@ -209,7 +218,7 @@ body{
     pointer-events: auto;
 }
 
-.profile .profile_details img{
+.profile .profile_details .fa-shopping-cart{
     height: 45px;
     width: 45px;
     object-fit: cover;
@@ -217,7 +226,7 @@ body{
 }
 
 .profile .profile_details .name_job{
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 .profile .profile_details .name{
@@ -267,7 +276,7 @@ body{
 } 
 
 .sidebar.active ~ .home_content{
-    width: calc(100% - 240px);
-    left: 240px;
+    width: calc(100% - 300px);
+    left: 300px;
 }
 
